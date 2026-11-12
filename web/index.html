@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="import-token" content="__IMPORT_TOKEN__">
+  <title>Rank and Index Tracker · Attendee edition</title>
+  <link rel="icon" href="/favicon.svg" type="image/svg+xml">
+  <link rel="stylesheet" href="/style.css">
+  <script src="/app.js" defer></script>
+</head>
+<body>
+  <a class="skip" href="#main">Skip to workspace</a>
+  <header><a class="wordmark" href="#overview"><span class="mark" aria-hidden="true">R</span>Rank and Index Tracker</a><span class="edition">ATTENDEE EDITION</span></header>
+  <div class="workspace">
+    <aside class="rail" aria-label="Workspace navigation">
+      <label class="label" for="source">DATA SOURCE</label>
+      <select id="source"><option value="demo">Synthetic demo</option><option value="mine">My data</option></select>
+      <nav aria-label="Views">
+        <a href="#overview" data-view="overview">Overview</a>
+        <a href="#rankings" data-view="rankings">Rankings</a>
+        <a href="#indexation" data-view="indexation">Indexation</a>
+        <a href="#queue" data-view="queue">Bing check queue</a>
+        <a href="#history" data-view="history">History</a>
+        <a href="#export" data-view="export">Export and setup</a>
+      </nav>
+      <div class="rail-note"><p class="label">LOCAL BY DESIGN</p><p>Your files. Your provider accounts. No background captures.</p><a href="#export">Add your first pages →</a></div>
+    </aside>
+    <main id="main" tabindex="-1">
+      <div id="mode-banner" class="notice">SYNTHETIC DEMO · All measurements are invented.</div>
+      <div class="heading"><div><p class="label">SEARCH EVIDENCE WORKBENCH</p><h1 id="view-title">Overview</h1></div><button id="reload" type="button">Reload data</button></div>
+      <p id="load-status" role="status" aria-live="polite"></p>
+      <div id="error" class="error" role="alert" hidden></div>
+      <section id="content" aria-label="Current view"></section>
+      <footer>Local snapshots, not guarantees. Unknown is missing evidence. <span>LLM Mastery · Chiang Mai · 14-15 Nov 2026</span></footer>
+    </main>
+  </div>
+</body>
+</html>

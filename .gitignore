@@ -1,0 +1,13 @@
+__pycache__/
+*.py[cod]
+.env
+.env.*
+.venv/
+tracker.json
+recovery-*.json
+.tracker.lock
+.rank-index-tracker/
+private-data/
+*.log
+.DS_Store
+BRIEF.md
