@@ -626,7 +626,7 @@ class RepositoryChecks(unittest.TestCase):
     def test_no_em_dash_or_unapproved_hostnames(self):
         # Real hosts are allowed only for provider docs/API, Bing searches, the clone URL,
         # and the W3C SVG namespace (an identifier, never a remote request).
-        allowed={'dataforseo.com','docs.dataforseo.com','api.dataforseo.com','developers.google.com','searchconsole.googleapis.com','oauth2.googleapis.com','www.googleapis.com','www.bing.com','bing.com','github.com','www.w3.org','localhost'}
+        allowed={'dataforseo.com','docs.dataforseo.com','api.dataforseo.com','developers.google.com','searchconsole.googleapis.com','oauth2.googleapis.com','www.googleapis.com','www.bing.com','bing.com','github.com','www.w3.org','localhost','marcmoeller.au'}
         suffixes=('example.com','example.org','example.net')
         files=[p for p in app.ROOT.rglob('*') if p.is_file() and not any(part.startswith('.') or part=='__pycache__' or part.startswith('tmp') for part in p.relative_to(app.ROOT).parts)]
         # Dotfiles relevant to distribution are scanned explicitly without reading credentials.

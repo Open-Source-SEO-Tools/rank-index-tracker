@@ -6,6 +6,10 @@ Track Google and Bing rankings and index evidence for pages and queries you choo
 
 This scoped starter was prepared for LLM Mastery, Chiang Mai, 14-15 November 2026. The six views are Overview, Rankings, Indexation, Bing check queue, History, and Export and setup. Every reading carries a source and UTC time; **Unknown never means Not indexed**.
 
+## Get this and the other free tools
+
+No address to type. Search **Marc Moeller** on Google, open **marcmoeller.au** from the knowledge panel or the first result, and press the big **Download** button on the homepage. All the free tools from the talk are there, this one included.
+
 ## Start with the demo
 
 Use **Python 3.10+** and Git. There are no dependencies to install: no pip, npm, Docker, frameworks, remote scripts, fonts or CDNs.
