@@ -230,6 +230,6 @@ JSON preserves history and evidence; CSV includes saved rank rows, index history
 python3 -m unittest discover -s tests -v
 ```
 
-The tests use hand-written synthetic provider fixtures and loopback server requests. They make no external calls and spend no credits. Live provider paths were **implemented against the linked documentation and tested with fixtures**, not run end to end by the authors in this edition. Browser and bookmarklet behavior still needs manual review on a normal signed-in browser.
+The tests use hand-written synthetic provider fixtures and loopback server requests. They make no external calls and spend no credits. Live provider paths were **implemented against the linked documentation and tested with fixtures**, not run end to end by the authors in this edition. The snippet was run once on a live English Bing results page in Chrome on Linux on 13 November 2026: it read ten results and the importer decoded their click wrappers. Dragging the bookmarklet to a bookmarks bar, clipboard permission prompts, the no-results and challenge detection, and other browsers have not been checked.
 
 Application code, assets and the demo were newly authored for this edition. [PROVENANCE.md](PROVENANCE.md) lists official sources and verification limits. Code is offered under the [MIT licence](LICENSE), Copyright (c) 2026 SEOShipper. External services, fees and third-party data rights apply separately.

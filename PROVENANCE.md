@@ -47,8 +47,10 @@ Bing API unreliability in October 2026 and browser operator false negatives
 on 8 November 2026 are historical observations supplied in the brief. They
 were not independently repeated for this edition. The Bing DOM selectors,
 click-wrapper decoding rule and paired-search method were supplied in the
-brief. The snippet's current behavior, clipboard access, challenge detection
-and English no-results wording need review in a real signed-in browser.
+brief. The snippet was run once on a live English Bing results page in Chrome
+on Linux on 13 November 2026 and its ten results decoded correctly. Clipboard
+permission prompts, challenge detection and the English no-results wording
+still need review in a normal signed-in browser.
 No snippet requests data or automates a search.
 
 Additional conservative choices: negative Bing pairs must share a UTC day
