@@ -15,8 +15,8 @@ No address to type. Search **Marc Moeller** on Google, open **marcmoeller.au** f
 Use **Python 3.10+** and Git. There are no dependencies to install: no pip, npm, Docker, frameworks, remote scripts, fonts or CDNs.
 
 ```bash
-git clone https://github.com/SEOShipper/koa-tracker-attendee.git
-cd koa-tracker-attendee
+git clone https://github.com/Open-Source-SEO-Tools/rank-index-tracker.git
+cd rank-index-tracker
 python3 tracker.py
 ```
 
